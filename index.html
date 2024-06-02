@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A webpage that shows users info from inputed user"
+    />
+    <title>Github Search</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <!--Iconify library to add icons-->
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+  </head>
+  <body>
+    <nav>
+      <section id="site-title">
+        <a href="index.html">
+          <iconify-icon icon="fa:github" id="site-icon"></iconify-icon>
+          Github</a
+        >
+      </section>
+      <section id="search-section">
+        <input type="text" id="searchbar" placeholder="Search github user" />
+        <button id="search-btn">
+          <iconify-icon icon="fa:search"></iconify-icon>
+        </button>
+      </section>
+    </nav>
+
+    <button id="btn-theme">
+      <iconify-icon icon="fa-solid:sun" id="icon-theme"></iconify-icon>
+    </button>
+
+    <div class="container">
+      <section id="search-results">
+        <!--
+        <div class="row">
+          <div class="user-container">
+            <img
+              src="https://avatars.githubusercontent.com/u/35074883?v=4"
+              alt=""
+            />
+            <div class="details-container">
+              <p class="name">Kevin Xu ＜（＾－＾）＞</p>
+              <p class="login">kevin</p>
+              <p class="bio">sometimes paid to write bugs</p>
+              <div class="other-data">
+                <span>cyberspace&nbsp;&nbsp;&#183;&nbsp;</span>
+                <iconify-icon
+                  icon="iconoir:repository"
+                  class="details-icon"
+                ></iconify-icon>
+                <span>9&nbsp;&nbsp;&#183;&nbsp;</span>
+                <iconify-icon
+                  icon="octicon:people-16"
+                  class="details-icon"
+                ></iconify-icon>
+                <span>14</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        -->
+      </section>
+    </div>
+
+    <script src="script/main.js"></script>
+  </body>
+</html>
